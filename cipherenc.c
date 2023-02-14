@@ -8,7 +8,7 @@ int main()
   scanf("%s", text);
   printf("Enter the key: ");
   scanf("%d", & key);
-
+//Encryption of input
   for (i = 0; text[i] != '\0'; ++i) 
   {
     ch = text[i];
@@ -34,7 +34,7 @@ int main()
     text[i] = ch;
   }
   printf("Encrypted message: %s\n", text);
-  
+  //Decryption of input
   for (i = 0; text[i] != '\0'; ++i) 
   {
     ch1 = text[i];
